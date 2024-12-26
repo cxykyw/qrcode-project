@@ -97,7 +97,7 @@ sequenceDiagram
     Server->>Redis: 更新状态(SCANNED)
     Server->>Mobile: 返回成功
     
-    Mobile->>Server: 确认��录
+    Mobile->>Server: 确认登录
     Server->>Redis: 更新状态(CONFIRMED)
     Server->>Mobile: 返回成功
     
